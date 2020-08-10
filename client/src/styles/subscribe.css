@@ -1,0 +1,93 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.tags {
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.head {
+  background: #000000;
+  text-align: center;
+  height: 7.5rem;
+}
+
+.pwevr-logo-header {
+  width: 15rem;
+  margin: auto;
+  display: block;
+  padding-top: 2rem;
+}
+
+.subscribe-heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  color: #000000;
+}
+
+.bottom-container {
+  background: linear-gradient(to top right, #29CF7C, #84E475, #C7F36F, #FBFF6B);
+  font-family: 'Playfair Display', serif;
+  height: 30.6rem;
+  padding-bottom: 31.5rem;
+}
+
+input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 0.25rem;
+  background-color: transparent;
+  outline: none;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+.subscribe-button {
+  margin: 0px auto;
+  background: #000000;;
+  color: #FFFFFF;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.3rem 2rem;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subscribe-button:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #000000;
+  outline: none;
+}
+
+.subscribe-button:focus {
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .bottom-container {
+    height: 32.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-container {
+    height: 31.9rem;
+  }
+}

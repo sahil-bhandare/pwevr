@@ -1,0 +1,152 @@
+.app-background {
+  background: #000000;
+  padding-bottom: 2.05rem;
+}
+
+.pwevr-logo-mobile {
+  width: 15rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.top-navbar {
+  text-align: center;
+}
+
+.hamburger_menu {
+  width: 2rem;
+  display: inline;
+}
+
+.username-box {
+  display: inline;
+  border: solid;
+  border-color: darkorange;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding-bottom: 0.25rem;
+  padding-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.select-charger-box {
+  text-align: center;
+}
+
+.charger-menu {
+  display: inline;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 0.5rem;
+  margin-left: 0.7rem;
+  padding: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 1.25rem;
+  background: transparent;
+  color: #FFFFFF;
+  border-color: darkorange;
+  border-radius: 20px;
+  border-width: 0.1rem;
+  text-align: right;
+}
+
+.charger-menu:focus {
+  outline: none;
+}
+
+.qr-code {
+  width: 3.25rem;
+}
+
+.power-consumed-output {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bill-amount-output {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.time-duration-output {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.start-stop-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background: darkorange;
+  color: black;
+  border: 1.75px;
+  border-color: darkorange;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.5rem 3rem;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.start-stop-button:focus {
+  outline: none;
+}
+
+.contact-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background: black;
+  color: #FFFFFF;
+  border: 1.75px;
+  border-color: darkorange;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.25rem 2rem;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-button:focus {
+  outline: none;
+}
+
+.stores {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.playstore {
+  width: 2rem;
+  margin-right: 2.5rem;
+}
+
+.appstore {
+  width: 2rem;
+}
+
+@media (max-width: 992px) {
+  .app-background {
+    padding-bottom: 4.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-background {
+    padding-bottom: 3.4rem;
+  }
+}

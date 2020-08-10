@@ -1,0 +1,115 @@
+.btm-container {
+  background: linear-gradient(to top right, #29CF7C, #84E475, #C7F36F, #FBFF6B);
+  padding-bottom: 0.25rem;
+}
+
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.products-heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+}
+
+.product-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 1rem;
+  text-underline-position: under;
+}
+
+.product-tagline {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
+.connector {
+  width: 20rem;
+  position: relative;
+  display: block;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.try-me-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background: #000000;
+  color: #FFFFFF;
+  border: 1.75px;
+  border-color: #000000;
+  border-style: solid;
+  outline: none;
+  border-radius: 25px;
+  padding: 0.3rem 2rem;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.try-me-button:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 1.75px;
+  border-style: solid;
+  border-color: #000000;
+  color: #000000;
+  outline: none;
+}
+
+.try-me-button:focus {
+  outline: none;
+}
+
+.try-me-link:hover {
+  text-decoration: none;
+}
+
+.coming-soon {
+  width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  transform: rotate(15deg);
+}
+
+@media (max-width: 992px) {
+  .connector {
+    width: 20rem;
+  }
+  .product-heading {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.15rem;
+  }
+  .product-tagline {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .connector {
+    width: 20rem;
+  }
+  .product-tagline {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

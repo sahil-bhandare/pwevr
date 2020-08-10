@@ -1,0 +1,24 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  background: #000000;
+  text-align: center;
+  height: 20%;
+}
+
+.pwevr-logo {
+  width: 15rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
