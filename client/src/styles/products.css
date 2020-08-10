@@ -35,9 +35,8 @@
   padding-right: 24rem;
 }
 
-.connector {
-  width: 20rem;
-  position: relative;
+.universal-connector {
+  width: 10rem;
   display: block;
   margin: auto;
   padding-bottom: 2rem;

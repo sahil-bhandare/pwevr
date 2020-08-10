@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/services.css';
-import Connector from '../images/connector.svg';
 import Header from '../components/header.jsx';
 import Menu from '../components/menu.jsx';
 import Footer from '../components/footer.jsx';

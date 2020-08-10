@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/products.css';
-import Connector from '../images/connector.svg';
+import Connector from '../images/connector.png';
 import Header from '../components/header.jsx';
 import Menu from '../components/menu.jsx';
 import Footer from '../components/footer.jsx';
@@ -17,7 +17,7 @@ function Products() {
     <div class="btm-container">
       <u><strong><p class="products-heading">Products</p></strong></u>
       <u><p class="product-heading">Universal EV-Charger Connector</p></u>
-      <img src={Connector} class="connector selectDisable" alt="universal-connector"></img>
+      <img src={Connector} class="universal-connector selectDisable" alt="universal-connector"></img>
       <p class="product-tagline">
       This is the Universal EV Charger Connector.
       One end of this connector will be connected to the Charger.
