@@ -27,7 +27,7 @@ function About() {
       potentially capable of identifying the standard of charging needed for the EV once the connection is established and
       also has the capability to vary the output power to ensure maximum efficiency.
       We have also used bio-inspiration to design our own Universal EV-Charger Connector directly compatible with CCS2 & type-2
-      connector. A user can connect Universal type to CHAdeMO/ Tesla/ GB/ T cable and the smart charger will take
+      connector. A user can connect Universal type to CHAdeMO/ Tesla/ GB/T cable and the smart charger will take
       care of the rest.
       We are also in the process of creating an app which will be used to control the chargers. Our aim
       is to make the UI as simple as a TV remote and the UX as intuitive as a petrol station.
