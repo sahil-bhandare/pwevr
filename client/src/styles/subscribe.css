@@ -79,7 +79,7 @@ input {
   outline: none;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1281px) {
   .bottom-container {
     padding-bottom: 8.4rem;
   }
@@ -87,12 +87,12 @@ input {
 
 @media (max-width: 992px) {
   .bottom-container {
-    padding-bottom: rem;
+    padding-bottom: 6rem;
   }
 }
 
 @media (max-width: 768px) {
   .bottom-container {
-    padding-bottom: 10rem;
+    padding-bottom: 4.25rem;
   }
 }
