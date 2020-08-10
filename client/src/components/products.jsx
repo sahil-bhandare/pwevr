@@ -6,6 +6,7 @@ import Menu from '../components/menu.jsx';
 import Footer from '../components/footer.jsx';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Coming_Soon from '../images/comingsoon.svg';
+import Phone from '../images/phone.png';
 
 function Products() {
 
@@ -29,7 +30,7 @@ function Products() {
       The app allows the user to enable and disable charging for their EV  without the hassle of having to go thru multiple steps & pages.
       The goal is to provide the user a simple, enjoyable & interactive experience.
       </p>
-      <Link to={'/mobileapp'} class="try-me-link"><button type="submit" class="try-me-button">Prototype</button></Link>
+      <img src={Phone} class="phone selectDisable" alt="phone"></img>
       <u><p class="product-heading">Smart Universal EV Charger</p></u>
       <p class="product-tagline" style={{marginBottom: "0.25rem"}}>
       The Smart Universal EV Charger has the ability to identify & charge EVs of different kW ratings.

@@ -43,41 +43,10 @@
   padding-bottom: 2rem;
 }
 
-.try-me-button {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  background: #000000;
-  color: #FFFFFF;
-  border: 1.75px;
-  border-color: #000000;
-  border-style: solid;
-  outline: none;
-  border-radius: 25px;
-  padding: 0.3rem 2rem;
-  font-size: 1.2rem;
+.phone {
   display: block;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-}
-
-.try-me-button:hover {
-  cursor: pointer;
-  background: transparent;
-  border: 1.75px;
-  border-style: solid;
-  border-color: #000000;
-  color: #000000;
-  outline: none;
-}
-
-.try-me-button:focus {
-  outline: none;
-}
-
-.try-me-link:hover {
-  text-decoration: none;
+  margin: auto;
+  width: 15rem;
 }
 
 .coming-soon {
