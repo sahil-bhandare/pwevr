@@ -10,12 +10,6 @@ html,body {
   font-weight: bold;
 }
 
-.head {
-  background: #000000;
-  text-align: center;
-  height: 7.5rem;
-}
-
 .pwevr-logo-header {
   width: 15rem;
   margin: auto;
@@ -87,7 +81,7 @@ input {
 
 @media (max-width: 992px) {
   .bottom-container {
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
   }
 }
 

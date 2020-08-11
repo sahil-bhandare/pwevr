@@ -22,6 +22,7 @@
   background: transparent;
   text-align: center;
   padding-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 768px) {
