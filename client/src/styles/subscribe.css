@@ -28,7 +28,7 @@ html,body {
 .bottom-container {
   background: linear-gradient(to top right, #29CF7C, #84E475, #C7F36F, #FBFF6B);
   font-family: 'Playfair Display', serif;
-  height: 100vh;
+  min-height: 520px;
 }
 
 input {
@@ -56,7 +56,7 @@ input {
   font-size: 1.2rem;
   display: block;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .subscribe-button:hover {
