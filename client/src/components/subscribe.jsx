@@ -52,8 +52,8 @@ class Subscribe extends Component {
 
     return (
       <div>
-        <Header />
-        <Menu />
+      <Header />
+      <Menu />
         <div class="bottom-container">
           <form noValidate onSubmit={this.onSubmit}>
               <strong><u><p className="subscribe-heading">Subscribe</p></u></strong>
