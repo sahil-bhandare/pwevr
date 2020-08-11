@@ -80,13 +80,14 @@ input {
 }
 
 @media (max-width: 992px) {
-  .bottom-container {
 
-  }
 }
 
 @media (max-width: 768px) {
   .bottom-container {
-
+    min-height: 550px;
+  }
+  .subscribe-button {
+    margin-bottom: 3.5rem;
   }
 }
