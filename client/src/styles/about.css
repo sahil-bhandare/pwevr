@@ -1,6 +1,6 @@
 .body-container {
     background: linear-gradient(to top right, #29CF7C, #84E475, #C7F36F, #FBFF6B);
-    padding-bottom: 0.25rem;
+    padding-bottom: 1.5rem;
 }
 
 .about-heading {
@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about-contents{
     font-size: 0.85rem;
   }
