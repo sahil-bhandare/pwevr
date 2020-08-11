@@ -6,7 +6,6 @@ import Menu from '../components/menu.jsx';
 import Footer from '../components/footer.jsx';
 
 function About() {
-
   return(
     <div>
       <Header />
@@ -35,7 +34,7 @@ function About() {
       We are committed to developing Made in India EV DC charging solutions which are easy to setup & operate.
       PWEVR is looking to set up a network of EV chargers across India in the future.
       </p>
-      <Footer/>
+      <Footer />
       </div>
     </div>
   );
