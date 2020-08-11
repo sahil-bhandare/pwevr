@@ -28,7 +28,7 @@ html,body {
 .bottom-container {
   background: linear-gradient(to top right, #29CF7C, #84E475, #C7F36F, #FBFF6B);
   font-family: 'Playfair Display', serif;
-  padding-bottom: 0.25rem;
+  height: 100vh;
 }
 
 input {
@@ -81,12 +81,12 @@ input {
 
 @media (max-width: 992px) {
   .bottom-container {
-    padding-bottom: 8rem;
+
   }
 }
 
 @media (max-width: 768px) {
   .bottom-container {
-    padding-bottom: 5rem;
+
   }
 }
