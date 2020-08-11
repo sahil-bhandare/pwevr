@@ -91,7 +91,7 @@ input {
 @media (max-width: 767px) {
   .bottom-container {
     padding-bottom: 2.25rem;
-    position: absolute;
+    position: relative;
     margin-bottom: 0;
   }
   .subscribe-button {
