@@ -90,10 +90,10 @@ input {
 
 @media (max-width: 767px) {
   .bottom-container {
-    padding-bottom: 1rem;
-    min-height: 570px;
+    padding-bottom: 0rem;
+    min-height: 600px;
   }
   .subscribe-button {
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
   }
 }
