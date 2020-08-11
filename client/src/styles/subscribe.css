@@ -81,7 +81,7 @@ input {
 
 @media (max-width: 992px) {
   .bottom-container {
-    padding-bottom: 8rem;
+    padding-bottom: 13rem;
   }
   .subscribe-button {
     margin-bottom: 4rem;
@@ -90,7 +90,7 @@ input {
 
 @media (max-width: 767px) {
   .bottom-container {
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.25rem;
   }
   .subscribe-button {
     margin-bottom: 4rem;
