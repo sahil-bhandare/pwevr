@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 });
 
-const mongoURI = 'mongodb+srv://user69:pass69@cluster0.bsmjh.gcp.mongodb.net/subscribe';
+const mongoURI = 'mongodb+srv://pwevr:pwevr123@cluster0.b2rbt.gcp.mongodb.net/subscribe';
 
 mongoose
     .connect(mongoURI, {useCreateIndex: true, useNewUrlParser: true, useUnifiedTopology: true})
